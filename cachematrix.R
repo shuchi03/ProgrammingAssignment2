@@ -7,7 +7,7 @@ makeCacheMatrix <- function(x = matrix()) {  # x will be a matrix
 
                 x <<- y      # stores its value in x
 
-                m <<- NULL   # and resets the mean to NULL
+                m <<- NULL   # and resets the inverse m to NULL
         }
         get <- function() x  # it returns the original matrix
 
